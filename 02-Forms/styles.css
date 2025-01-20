@@ -1,0 +1,41 @@
+/* * { */
+    /* Universal selector "*" */
+/* } */
+
+/* Class selector --> syntax --> class="common-input" */
+/* .common-input */
+
+/* id selector --> syntax --> id="special" */
+/* #special */
+
+
+/* Border: { density(1px), border-type(solid/dotted/etc), border-color(black/red/green) } */
+
+.common-input {
+    height: 30px; 
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid green;
+    outline: none;
+    margin-bottom: 20px;
+    /* margin-left: ; */
+    /* margin-top: ; */
+    /* margin-right: ; */
+    /* margin: 20px; */
+}
+
+#submit-btn {
+    height: 30px;
+    width: 250px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: #4c4cc6;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#submit-btn:hover {
+    background-color: black;
+    color: white;
+}
