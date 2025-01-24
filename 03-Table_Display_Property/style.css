@@ -1,0 +1,16 @@
+.para {
+    border: 1px solid black;
+    display: block;
+    /* 
+    inline
+    block
+    inline-block
+    */
+    /* width: 100px; */
+}
+
+.container {
+    display: flex;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
