@@ -1,0 +1,165 @@
+Microsoft Windows [Version 10.0.19045.5440]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Punisher>node
+Welcome to Node.js v22.13.1.
+Type ".help" for more information.
+> const num1 = 10
+undefined
+> const num2 = 20
+undefined
+> const num3 = 30
+undefined
+> const nums = [ 10, 20, 30, 40, 50, 60, 70, 80, 90, 100 ]
+undefined
+> console.log(nums)
+[
+  10, 20, 30, 40,  50,
+  60, 70, 80, 90, 100
+]
+undefined
+> nums[0]
+10
+> nums[9]
+100
+> const marks = new Array(1, 2, 3, 4, 5)
+undefined
+> marks
+[ 1, 2, 3, 4, 5 ]
+> console.log(marks[2])
+3
+undefined
+> marks[4]
+5
+> marks.length
+> nums.length
+10
+> const mix = [ 100, 200, 300, 1000, 3.142, {}, [ "DC", "Marvel", "Dare Devil", "Lucifer", "Battle Royal" ], "Tony Stark", "Shaktiman", "Shinchan" ]
+undefined
+> mix
+[
+  100,
+  200,
+  300,
+  1000,
+  3.142,
+  {},
+  [ 'DC', 'Marvel', 'Dare Devil', 'Lucifer', 'Battle Royal' ],
+  'Tony Stark',
+  'Shaktiman',
+  'Shinchan'
+]
+> mix.length
+10
+> mix[5]
+{}
+> mix.includes(3.142)
+true
+> mix.includes("Shinchan")
+true
+> mix.includes("Captain America")
+false
+> mix.includes({})
+false
+> mix.includes([ 'DC', 'Marvel', 'Dare Devil', 'Lucifer', 'Battle Royal' ])
+false
+> const text = [ "One", "Two", "Three" ]
+undefined
+> text
+[ 'One', 'Two', 'Three' ]
+> text.push("Four")
+4
+> text
+[ 'One', 'Two', 'Three', 'Four' ]
+> text.push("Five")
+5
+> text
+[ 'One', 'Two', 'Three', 'Four', 'Five' ]
+> text.push("Six")
+6
+> text
+[ 'One', 'Two', 'Three', 'Four', 'Five', 'Six' ]
+> text.pop()
+'Six'
+> text
+[ 'One', 'Two', 'Three', 'Four', 'Five' ]
+> text.pop()
+'Five'
+> text
+[ 'One', 'Two', 'Three', 'Four' ]
+> text.unshift("Ten")
+5
+> text
+[ 'Ten', 'One', 'Two', 'Three', 'Four' ]
+> text.unshift("Eleven")
+6
+> text
+[ 'Eleven', 'Ten', 'One', 'Two', 'Three', 'Four' ]
+> text.shift()
+'Eleven'
+> text
+[ 'Ten', 'One', 'Two', 'Three', 'Four' ]
+> text.shift()
+'Ten'
+> text
+[ 'One', 'Two', 'Three', 'Four' ]
+>
+
+
+
+C:\Users\Punisher>node
+Welcome to Node.js v22.13.1.
+Type ".help" for more information.
+> const array1 = [1, 2, 3]
+undefined
+> const array2 = [100, 200, 300]
+undefined
+> array1.push(array2[0])
+4
+> array1
+[ 1, 2, 3, 100 ]
+> array1.push(array2[1])
+5
+> array1.push(array2[2])
+6
+> array1
+[ 1, 2, 3, 100, 200, 300 ]
+> const num1 = [1, 2, 3]
+undefined
+> const num2 = [100, 101, 102]
+undefined
+> const num3 = [ ...num1, ...num2 ]
+undefined
+> num3
+[ 1, 2, 3, 100, 101, 102 ]
+> num3.join()
+'1,2,3,100,101,102'
+> num3.join(" ")
+'1 2 3 100 101 102'
+> num3.join("+")
+'1+2+3+100+101+102'
+> num3.join("-")
+'1-2-3-100-101-102'
+> array1.slice(3, 6)
+[ 100, 200, 300 ]
+> const marks = [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+undefined
+> marks
+[
+  1, 2, 3, 4,  5,
+  6, 7, 8, 9, 10
+]
+> marks.length
+10
+> marks.slice(2, 6)
+[ 3, 4, 5, 6 ]
+> marks
+[
+  1, 2, 3, 4,  5,
+  6, 7, 8, 9, 10
+]
+> marks.splice(2, 4)
+[ 3, 4, 5, 6 ]
+> marks
+[ 1, 2, 7, 8, 9, 10 ]
+>
